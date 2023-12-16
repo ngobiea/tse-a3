@@ -29,6 +29,7 @@ function GoalInput(props) {
         <form onSubmit={goalSubmitHandler}>
           <label htmlFor='text'>New Goal</label>
           <input
+            placeholder='Goal'
             type='text'
             id='text'
             value={enteredGoalText}
